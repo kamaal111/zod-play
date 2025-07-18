@@ -1,0 +1,20 @@
+{
+    "name": "zod-play",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsx index.ts"
+    },
+    "keywords": [],
+    "author": "Kamaal Farah",
+    "license": "ISC",
+    "packageManager": "pnpm@10.13.1",
+    "dependencies": {
+        "zod": "^4.0.5"
+    },
+    "devDependencies": {
+        "tsx": "^4.20.3",
+        "typescript": "^5.8.3"
+    }
+}
