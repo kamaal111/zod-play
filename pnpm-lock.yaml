@@ -12,6 +12,9 @@ importers:
         specifier: ^4.0.5
         version: 4.0.5
     devDependencies:
+      '@standard-schema/spec':
+        specifier: ^1.0.0
+        version: 1.0.0
       tsx:
         specifier: ^4.20.3
         version: 4.20.3
@@ -177,6 +180,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@standard-schema/spec@1.0.0':
+    resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
+
   esbuild@0.25.6:
     resolution: {integrity: sha512-GVuzuUwtdsghE3ocJ9Bs8PNoF13HNQ5TXbEi2AhvVb8xU1Iwt9Fos9FEamfoee+u/TOsn7GUWc04lz46n2bbTg==}
     engines: {node: '>=18'}
@@ -285,6 +291,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.25.6':
     optional: true
+
+  '@standard-schema/spec@1.0.0': {}
 
   esbuild@0.25.6:
     optionalDependencies:
